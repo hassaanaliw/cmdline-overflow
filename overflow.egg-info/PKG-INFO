@@ -1,6 +1,6 @@
 Metadata-Version: 1.0
 Name: overflow
-Version: 1.1.0
+Version: 1.2.0
 Summary: Get the latest topics for each topic and category of StackOverflow
 Home-page: https://github.com/hassaanaliw/cmdline-overflow
 Author: Hassaan Ali Wattoo
@@ -75,6 +75,28 @@ Description: Gitinfo
         Or download the compressed archive, extract it, and inside it run::
         
             $ python setup.py install
+        
+        Changelog
+        
+        1.0 (07-25-2014)
+        ------------------
+        
+        - Initial release
+          
+        1.2.0 (08-02-2014)
+        --------------------
+        
+        - Script uses better practices.
+        - One function to improve readability.
+        - Uses bs4 now.
+        - Argparse help modified
+        Contributors
+        ============
+        
+        
+        - Hassaan Ali Wattoo 
+        
+        
         
 Keywords: analytics python scraping statistics
 Platform: UNKNOWN

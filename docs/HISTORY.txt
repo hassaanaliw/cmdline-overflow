@@ -5,3 +5,10 @@ Changelog
 
 - Initial release
   
+1.2.0 (08-02-2014)
+--------------------
+
+- Script uses better practices.
+- One function to improve readability.
+- Uses bs4 now.
+- Argparse help modified

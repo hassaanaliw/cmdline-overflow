@@ -1,8 +1,7 @@
 from setuptools import setup
 import os
 
-
-VERSION = '1.1.0'
+VERSION = '1.2.0'
 
 
 setup(
@@ -16,14 +15,15 @@ setup(
     entry_points={
         'console_scripts': 'overflow=overflow:parser',
     },
+    long_description=(
+        open('README.rst').read() + '\n' +
+        open(os.path.join('docs', 'HISTORY.txt')).read() + '\n' +
+        open(os.path.join('docs', 'CONTRIBUTORS.txt')).read()
+    ),
     include_package_data=True,
     keywords='analytics python scraping statistics',
     license='GPL',
-    long_description=(
-        open('README.rst').read()
 
-
-    ),
     name='overflow',
     py_modules=[
         'overflow',

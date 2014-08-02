@@ -8,7 +8,7 @@ Get the latest topics from StackOverflow.
 Usage
 -----
 
-Enter the tag name followed by the category. ::
+Enter the tag name followed by the category ::
 
     $ overflow python votes
 
